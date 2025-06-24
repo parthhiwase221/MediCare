@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c45e90d145b641608faa8f72441c24c6" Name="Diagram1">
+        <EntityTypeShape EntityType="HMSOrgSoftModel.Admission" Width="1.5" PointX="11.25" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSOrgSoftModel.AppointmentHistory" Width="1.5" PointX="5.25" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSOrgSoftModel.Appointment" Width="1.5" PointX="8.25" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSOrgSoftModel.Bed" Width="1.5" PointX="9" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSOrgSoftModel.BillingCategory" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSOrgSoftModel.BillItem" Width="1.5" PointX="7.5" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSOrgSoftModel.Bill" Width="1.5" PointX="5.25" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSOrgSoftModel.Department" Width="1.5" PointX="1.5" PointY="24.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSOrgSoftModel.Doctor" Width="1.5" PointX="6" PointY="24.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSOrgSoftModel.InventoryTransaction" Width="1.5" PointX="5.25" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSOrgSoftModel.LabOrderItem" Width="1.5" PointX="10.5" PointY="22.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSOrgSoftModel.LabOrder" Width="1.5" PointX="8.25" PointY="20.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSOrgSoftModel.LabTestCategory" Width="1.5" PointX="6" PointY="41" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSOrgSoftModel.LabTest" Width="1.5" PointX="8.25" PointY="40.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSOrgSoftModel.MedicalRecord" Width="1.5" PointX="13.25" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSOrgSoftModel.MedicineCategory" Width="1.5" PointX="0.75" PointY="30.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSOrgSoftModel.Medicine" Width="1.5" PointX="3" PointY="29.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSOrgSoftModel.PatientDocument" Width="1.5" PointX="5.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSOrgSoftModel.Patient" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSOrgSoftModel.Payment" Width="1.5" PointX="10.5" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSOrgSoftModel.PrescriptionItem" Width="1.5" PointX="17.75" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSOrgSoftModel.Prescription" Width="1.5" PointX="15.5" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSOrgSoftModel.ReportTemplate" Width="1.5" PointX="5.25" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSOrgSoftModel.Role" Width="1.5" PointX="0.75" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSOrgSoftModel.Service" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSOrgSoftModel.Staff" Width="1.5" PointX="3.75" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSOrgSoftModel.SystemSetting" Width="1.5" PointX="5.25" PointY="33.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSOrgSoftModel.UserLog" Width="1.5" PointX="5.25" PointY="36.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSOrgSoftModel.User" Width="1.5" PointX="3" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSOrgSoftModel.Ward" Width="1.5" PointX="6.75" PointY="1.375" IsExpanded="true" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__Admission__BedID__367C1819" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__Admission__Docto__3493CFA7" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__Admission__Patie__339FAB6E" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__Admission__WardI__3587F3E0" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__Appointme__Appoi__6754599E" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__Appointme__Chang__68487DD7" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__Appointme__Creat__6383C8BA" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__Appointme__Docto__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__Appointme__Patie__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__Beds__WardID__2DE6D218" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__Services__Catego__0A9D95DB" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__BillItems__BillI__1BC821DD" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__Bills__CreatedBy__18EBB532" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__Bills__PatientID__0F624AF8" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__Payments__BillID__22751F6C" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__Staff__Departmen__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK_Departments_Staff" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__Doctors__StaffID__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__LabOrders__Docto__44CA3770" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__MedicalRe__Docto__6D0D32F4" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__Inventory__Medic__01142BA1" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__Inventory__Proce__03F0984C" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__LabOrderI__Order__4A8310C6" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__LabOrderI__TestI__4B7734FF" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__LabOrders__Patie__43D61337" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__LabTests__Catego__3F115E1A" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__MedicalRe__Patie__6C190EBB" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__Prescript__Recor__71D1E811" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__Medicines__Categ__7C4F7684" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__PatientDo__Patie__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__Payments__Receiv__25518C17" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__Prescript__Presc__76969D2E" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__ReportTem__Creat__4F47C5E3" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__Users__RoleID__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__SystemSet__Updat__55F4C372" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSOrgSoftModel.FK__UserLogs__UserID__4222D4EF" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
